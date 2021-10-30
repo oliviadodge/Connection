@@ -10,9 +10,29 @@
         android:label="MainNavFragment"
         tools:layout="@layout/fragment_main" >
         <action
+            android:id="@+id/action_main_nav_to_home"
+            app:destination="@id/navigation_home"/>
+        <action
             android:id="@+id/action_main_nav_to_chat"
             app:destination="@id/chat"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.develop.connection.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_connected"
+            app:destination="@id/navigation_connected"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_connected"
+        android:name="com.develop.connection.ui.connected.ConnectedFragment"
+        android:label="@string/title_connected"
+        tools:layout="@layout/fragment_connected"/>
 
     <fragment
         android:id="@+id/chat"
