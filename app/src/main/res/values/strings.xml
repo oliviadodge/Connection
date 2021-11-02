@@ -2,8 +2,8 @@
     <string name="app_name">Connection</string>
     <string name="title_home">Home</string>
     <string name="title_connected">Connected</string>
-    <string name="title_people">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_people">People</string>
+    <string name="title_chats">Chats</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="connect_with_a_friend">Connect with a Friend</string>

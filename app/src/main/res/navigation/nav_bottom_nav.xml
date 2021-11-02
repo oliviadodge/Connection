@@ -27,6 +27,6 @@
     <fragment
         android:id="@+id/navigation_chats"
         android:name="com.develop.connection.ui.people.PeopleListFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_chats"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

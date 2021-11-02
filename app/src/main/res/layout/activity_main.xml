@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:defaultNavHost="false"
-        app:navGraph="@navigation/mobile_navigation" />
+        app:navGraph="@navigation/nav_main" />
     <!--//TODO dev docs say there can be only one defaultNavHost to handle back button, but this is a problem-->
 
 </layout>
