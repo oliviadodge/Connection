@@ -13,6 +13,9 @@
             android:id="@+id/action_main_nav_to_home"
             app:destination="@id/navigation_home"/>
         <action
+            android:id="@+id/action_main_nav_to_connected"
+            app:destination="@id/navigation_connected"/>
+        <action
             android:id="@+id/action_main_nav_to_chat"
             app:destination="@id/chat"/>
     </fragment>

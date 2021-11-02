@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import com.develop.connection.R
 import com.develop.connection.databinding.FragmentHomeBinding
@@ -34,7 +36,7 @@ class HomeFragment : Fragment() {
         })
 
         binding.connectWithAFriend.setOnClickListener {
-            findNavController().navigate(R.id.action_home_to_connected)
+            Navigation.findNavController(requireActivity(), R.id.nav_host_main).navigate(R.id.action_main_nav_to_connected)
         }
     }
 }
