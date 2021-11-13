@@ -40,18 +40,24 @@
             android:gravity="center">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_round"
                 android:src="@drawable/ic_baseline_dialpad_24" />
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_round"
                 android:src="@drawable/ic_baseline_mic_off_24" />
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_round"
                 android:src="@drawable/ic_baseline_volume_up_24" />
         </TableRow>
 
@@ -61,18 +67,24 @@
             android:gravity="center">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_round"
                 android:src="@drawable/ic_outline_videocam_24" />
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_round"
                 android:src="@drawable/ic_baseline_person_add_alt_1_24" />
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_round"
                 android:src="@drawable/ic_outline_message_24" />
         </TableRow>
 
@@ -82,8 +94,10 @@
             android:gravity="center">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_round"
                 android:src="@drawable/ic_baseline_call_end_24" />
 
         </TableRow>
