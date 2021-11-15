@@ -7,7 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.develop.connection.R
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ConnectedFragment : Fragment() {
 
     private lateinit var viewModel: ConnectedViewModel
